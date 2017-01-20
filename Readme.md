@@ -1,6 +1,7 @@
 # Учебный проект «Барбершоп»
 
 * Студент: [Дмитрий Судник](https://up.htmlacademy.ru/htmlcss/16/user/327419).
+* Наставник: [Михаил  Поданев](https://htmlacademy.ru/profile/mpodanev).
 
 ---
 

@@ -141,7 +141,7 @@ main .container {
 }
 
 .product-item:nth-child(3n) {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .filters-container {

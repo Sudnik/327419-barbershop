@@ -6,6 +6,20 @@ body {
   color: #000000;
 }
 
+body.item-grid-body {
+  min-height: 1162px;
+
+  background: #000000 url("../img/previews/_barbershop-item.jpg") no-repeat 50% 0;
+  background-size: 1200px 1162px;
+}
+
+body.catalog-grid-body {
+  min-height: 1162px;
+
+  background: #000000 url("../img/previews/_barbershop-shop.jpg") no-repeat 50% 0;
+  background-size: 1200px 1173px;
+}
+
 .big-header {
   font-weight: bold;
   font-size: 30px;
@@ -20,4 +34,139 @@ body {
   line-height: 30px;
   font-family: PT Sans Narrow;
   color: #000000;
+}
+
+.clearfix:after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+
+header .clearfix:after {
+  height: 4px;
+}
+
+.container {
+  width: 940px;
+  min-height: 72px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+main .container {
+  padding: 50px 10px 43px 10px;
+}
+
+.page-navigation {
+  float: left;
+  width: 780px;
+  min-height: 68px;
+}
+
+.sign-in {
+  float: right;
+  width: 140px;
+  min-height: 68px;
+}
+
+.main-header-container {
+  min-height: 80px;
+}
+
+.product-gallery {
+  float: left;
+  width: 460px;
+  min-height: 668px;
+  margin-top: 52px;
+}
+
+.product-specification {
+  float: right;
+  width: 400px;
+  min-height: 668px;
+  margin-top: 52px;
+}
+
+.product-big-photo {
+  min-height: 500px;
+  margin-bottom: 20px;
+}
+
+.product-photo-previews {
+  min-height: 150px;
+}
+
+.footer-contact-container {
+  float: left;
+  width: 380px;
+  min-height: 190px;
+  padding-right: 10px;
+}
+
+.footer-social-container {
+  float: left;
+  width: 300px;
+  min-height: 190px;
+  padding: 0 10px;
+}
+
+.footer-copyright-container {
+  float: right;
+  width: 140px;
+  min-height: 190px;
+  padding-left: 10px;
+}
+
+.product-photo-item {
+  display: inline-block;
+  width: 140px;
+  min-height: 149px;
+  padding-right: 16px;
+}
+
+.product-photo-item:nth-child(3n) {
+  padding-right: 0;
+}
+
+.page-menu-item,
+.breadcrumb-item,
+.product-item,
+.product-page-item {
+  display: inline-block;
+}
+
+.product-item {
+  margin-right: 15px;
+}
+
+.product-item:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.filters-container {
+  float: left;
+  width: 220px;
+  min-height: 740px;
+  padding-right: 10px;
+}
+
+.products-container {
+  float: right;
+  width: 700px;
+  min-height: 740px;
+  padding-left: 10px;
+}
+
+.products-list {
+  min-height: 660px;
+  margin-bottom: 10px;
+}
+
+.products-pagination {
+  min-height: 70px;
+}
+
+.product-title .product-brand {
+  display: block;
 }
